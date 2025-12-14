@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 10px 0;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        img{
+            width: 250px;
+        }
+        .profile{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Kirubel Tasew</h1>
+        <div class="profile">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/025/463/773/small/hacker-logo-design-a-mysterious-and-dangerous-hacker-illustration-vector.jpg" alt="Profile Image">
+        </div>
+        
+
+        <p>
+            Hello! My name is Kirubel Tasew. I am a student interested in learning web development.
+            I enjoy working with HTML, CSS, and JavaScript to build simple and creative websites.
+        </p>
+
+        
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
